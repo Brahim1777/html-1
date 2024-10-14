@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(16, 57, 98, 0.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur Mon Site</h1>
+        <nav>
+            <a href="#about">À Propos</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>À Propos de Nous</h2>
+        <p>Ceci est un exemple de page web. Vous pouvez ajouter vos propres informations ici.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contactez-Nous</h2>
+        <form>
+            <label for="name">Nom:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Mon Site Web</p>
+    </footer>
+</body>
+</html>
